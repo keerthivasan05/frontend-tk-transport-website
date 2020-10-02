@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image03.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+#services {
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+    #services h1 {
+        text-align: center;
+        color: #efefef !important;
+        padding-bottom: 10px;
+    }
+
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+    .btn:hover {
+        background-color: #fff;
+        color: #00;
+    }
+.button{
+        position:absolute;
+        top:60%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .btn{
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        color:#000000;
+        text-decoration:none;
+        transition:0.6s ease;
+    }
+
+      .btn:hover{
+            background-color: #fff;
+            color: #00;
+        }
+
+
+.blue-button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.green-button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.black-button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
